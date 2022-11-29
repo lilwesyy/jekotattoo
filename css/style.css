@@ -1,0 +1,182 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #171616 !important;
+    margin: 0;
+}
+
+#navbar-bar{
+    height: 150px;
+}
+
+header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(23, 22, 22, 0.900), rgba(23, 22, 22, 0.900)), url("/img/header.png");
+}
+
+#features{
+    height: 55%;
+    min-height: 400px;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(23, 22, 22, 0.900), rgba(23, 22, 22, 0.900)), url("/img/features.png");
+}
+
+#button-header{
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#button-header:hover{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+#text-meta-italic{
+    color: #D4D4D4;
+    font-style: italic;
+}
+
+#text-meta{
+    color: #D4D4D4;
+}
+
+#text-lead{
+    color: #FFFFFF;
+}
+
+#text-meta-top{
+    color: #D4D4D4;
+    font-style: italic;
+    margin-bottom: -3%;
+}
+
+
+#social-icons{
+    color: #1E1E1E;
+    background-color: white;
+}
+
+#social-icons:hover{
+    color: white;
+    background-color: #1E1E1E;
+}
+
+.bio-text{
+    margin-top: 20%;
+    margin-right: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+    #bio-text{
+        margin-top: -20%;
+        text-align: center;
+        margin-left: 10%;
+        margin-bottom: 5%;
+      }
+      #features{
+        height: 100%;
+    }
+  }
+
+#text-lead-features{
+    font-weight: bold;
+    color: white;
+}
+
+
+#icon-features{
+    flex: none;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sub-features{
+    margin-top: 7%;
+}
+
+#imgbio{
+    flex:none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map-img{
+    flex:none;
+    width: 40%;
+}
+
+#footer-bar{
+    background-color: #1E1E1E !important;
+    color: white;
+    position: relative;
+    margin-bottom: -10%;
+}
+
+#footer-logo{
+    flex: none;
+    width: 30%;
+    text-align: left;
+}
+
+#footer-nav{
+    text-align: left;
+}
+
+.uk-navbar-nav>li>a {
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+}
+
+#footer-sign{
+    text-align: right;
+    margin-top: 
+}
+
+#footer-topnav{
+    margin-top: -4%;
+    height: 50px;
+}
+
+.uk-navbar-item{
+    margin-left: -25%;
+}
+
+#footer-logo-s{
+    flex: none;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -35%;
+    margin-bottom: -17%;
+}
+
+#footer-bar-s{
+    background-color: #1E1E1E !important;
+    color: white;
+    position: relative;
+}
+
+#ffff{
+    height: 50px;
+}
+
+#footer-links{
+    color: white !important;
+    text-transform: none;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 10px;
+    margin-top: 5%;
+}
+
+#prefooter{
+    margin-bottom: -10%;
+}
