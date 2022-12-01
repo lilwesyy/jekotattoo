@@ -12,8 +12,13 @@
     <!--
     <script src='https://staticshield.vercel.app/script.js' data-site-id='523b2ffb-b12c-46c7-ac95-b66eecf82216' data-cap=''></script> <script>setInterval(()=>{window.staticshieldToken||window.location.replace("https://bit.ly/req-blk-ss")},3e3);</script> <style>.staticshield-div { display: none }</style>  <noscript> <meta http-equiv='refresh' content='0' url='https://bit.ly/ss-noscript'/></noscript>
     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+
+    <div id="preloader" class="preloaderbg">
+        <span class="uk-margin-small-right uk-position-center" uk-spinner="ratio: 3"></span>
+    </div>
 
     <header id="header">
         <div id="navbar-container" class="uk-container">
@@ -41,7 +46,7 @@
 
             <div class="uk-container uk-text-center">
                 <img src="img/logo/textwhite.png" alt="Jeko Tattoo"><br>
-                <button id="button-header" class="uk-button uk-button-default uk-button-large">Prenota Ora</button>
+                <a id="button-header" class="uk-button uk-button-default uk-button-large" href="index.html">Prenota Ora</a>
             </div>
     </header>
 
@@ -162,5 +167,35 @@
 -->
 
 
+<div uk-scrollspy="target: > a; cls: uk-animation-slide-bottom; delay: 300; repeat: true">
+    <a uk-tooltip="title: To Top; pos: left" id="totopbutton" class="hidden" uk-totop uk-scroll></a>
+</div>
+
+
 </body>
+
+<script>
+    const showOnPx = 500;
+    const backToTopButton = document.querySelector("#totopbutton")
+
+    const scrollContainer = () => {
+    return document.documentElement || document.body;
+    };
+
+    document.addEventListener("scroll", () => {
+    if (scrollContainer().scrollTop > showOnPx) {
+        backToTopButton.classList.remove("hidden")
+    } else {
+        backToTopButton.classList.add("hidden")
+    }
+    })
+</script>
+
+
+<script>
+    setTimeout(function(){
+        $('#preloader').fadeToggle();
+    }, 1500);
+</script>
+
 </html>
