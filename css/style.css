@@ -71,17 +71,60 @@ header{
     margin-right: 15%;
 }
 
-@media only screen and (max-width: 768px) {
-    #bio-text{
-        margin-top: -20%;
-        text-align: center;
-        margin-left: 10%;
-        margin-bottom: 5%;
-      }
-      #header-center{
-        margin-top: 30%;
-    }
+@media only screen and (max-width: 425px) {
+        #bio-text{
+            margin-top: -20%;
+            text-align: center;
+            margin-left: 10%;
+            margin-bottom: 5%;
+        }
+        #header-center{
+            margin-top: 30%;
+        }
+        #footer-navbar{
+            text-align: center !important;
+            width: 100%;
+            font-size: 13pt !important;
+        }
+        #footer-sign{
+            text-align: center !important;
+            width: 100%;
+        }
+        #footer-bar-under{
+            height: 100% !important;
+        }
   }
+
+  @media only screen and (max-width: 768px) {
+    #footer-navbar{
+        text-align: center !important;
+        width: 100%;
+        font-size: 13pt !important;
+    }
+    #footer-sign{
+        text-align: center !important;
+        width: 100%;
+    }
+    #footer-bar-under{
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #footer-navbar{
+        text-align: center !important;
+        width: 100%;
+        font-size: 13pt !important;
+    }
+    #footer-sign{
+        text-align: center !important;
+        width: 100%;
+    }
+    #footer-bar-under{
+        height: 100% !important;
+    }
+}
+
   
 
 #text-lead-features{
@@ -113,11 +156,40 @@ header{
     width: 40%;
 }
 
-
-#prefooter{
-    margin-bottom: -3.8%;
+#logofooterr{
+    flex:none;
+    margin-top: 0 !important;
+    width: 40% !important;
 }
 
+#footer-bar-under{
+    background-color: #1E1E1E;
+    height: 100%;
+}
+
+
+#footer-navbar{
+    text-align: right;
+    margin-right: 40%;
+    margin-top: 3%;
+    font-size: 14pt;
+    word-spacing: 15px;
+    font-weight: bold;
+}
+
+#footer-navbar a{
+    color: #FFFFFF;
+}
+
+#footer-navbar a:hover{
+    color: #D4D4D4;
+    text-decoration: none;
+}
+
+#footer-sign{
+    text-align: right;
+    margin-right: 40%;
+}
 
 #map-prefoot{
     flex: none;
