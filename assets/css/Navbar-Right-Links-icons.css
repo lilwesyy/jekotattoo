@@ -1,0 +1,53 @@
+#background-hero-image {
+  height: 100vh;
+}
+
+#hero-column-2 {
+  text-align: center;
+  margin-top: 4%;
+}
+
+#hero-logo {
+  max-width: 80%;
+}
+
+#personal-img {
+  max-width: 80%;
+}
+
+#map-img {
+  text-align: left;
+}
+
+#social-icons1 {
+  padding: 11px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  background-color: white;
+  height: 50px;
+  color: black;
+  margin-left: 3%;
+}
+
+#social-icons {
+  padding: 11px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  background-color: white;
+  height: 50px;
+  color: black;
+  margin-right: 3%;
+}
+
+#social-icons-div {
+  padding-bottom: 30px;
+}
+
+#colum-contact-right {
+  text-align: end;
+}
+

@@ -1,0 +1,178 @@
+#prenota-ora {
+  background-color: transparent;
+  border-color: white;
+  border-width: thin;
+}
+
+#img-about {
+  text-align: center;
+}
+
+#about {
+  margin-top: 5%;
+}
+
+.job {
+  color: #D4D4D4;
+  font-style: italic;
+  margin-bottom: -1%;
+}
+
+#name {
+  font-weight: bold;
+  color: white;
+  font-size: 18pt;
+}
+
+#motto {
+  color: #D4D4D4;
+  font-style: italic;
+  margin-bottom: -1%;
+}
+
+#about {
+  color: #D4D4D4;
+}
+
+#features {
+  margin-top: 5%;
+  background-image: url("../../assets/img/features.png");
+  text-align: center;
+  background-size: cover;
+}
+
+#prenota-ora:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+#features-title {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+#features-sub-title {
+  font-weight: bold;
+  font-size: 16pt;
+  margin-top: 5%;
+}
+
+#features-sub-text {
+  text-decoration: none;
+  color: #d4d4d4;
+}
+
+#features-under-title {
+  color: #D4D4D4;
+}
+
+#footer {
+  background-color: #1E1E1E;
+}
+
+#footer-img {
+  margin-top: 3%;
+  width: 50%;
+  margin-bottom: 3%;
+}
+
+#meebox-link {
+  color: white;
+  text-decoration: none;
+}
+
+#footer-copyright {
+  color: #d4d4d4;
+}
+
+#footer-right {
+  text-align: right;
+}
+
+#nav-link-footer {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#footer-link-texts {
+  margin-top: 5%;
+  word-spacing: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #footer-right {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #footer-link-texts {
+    font-size: 10pt;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #footer-copyright {
+    font-size: 10pt;
+  }
+}
+
+#hero-column {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#hero-column-1 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+#social-icons1:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+#social-icons:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+#container-404 {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  margin-top: 10%;
+}
+
+#home-button {
+  margin-top: 10%;
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-color: transparent;
+}
+
+#home-button:hover {
+  background-color: black;
+  color: white;
+  transition: .3s;
+}
+
+#img-logo {
+  max-width: 100%;
+}
+
