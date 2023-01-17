@@ -269,3 +269,8 @@
   object-fit: cover;
 }
 
+body {
+  /*overflow-y: hidden;*/
+  overflow-x: hidden;
+}
+
