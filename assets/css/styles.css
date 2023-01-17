@@ -172,12 +172,6 @@
   margin-top: 2%;
 }
 
-#social-icons1:hover {
-  color: white;
-  background-color: black;
-  transition: 0.3s;
-}
-
 #social-icons:hover {
   color: white;
   background-color: black;
@@ -234,18 +228,6 @@
   text-align: left;
 }
 
-#social-icons1 {
-  padding: 11px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 100%;
-  background-color: white;
-  height: 50px;
-  color: black;
-  margin-left: 3%;
-}
-
 #social-icons {
   padding: 11px;
   width: 50px;
@@ -259,14 +241,6 @@
   margin-bottom: 5%;
 }
 
-#social-icons-div {
-  padding-bottom: 30px;
-}
-
-#colum-contact-right {
-  text-align: end;
-}
-
 .navbar-toggler {
   border: 0 !important;
   color: transparent !important;
@@ -275,5 +249,16 @@
 .navbar-collapse {
   text-align: center;
   color: white;
+}
+
+#map-img {
+  width: 100%;
+  min-height: 270px;
+  object-fit: cover;
+}
+
+.h370 {
+  max-height: 370px;
+  object-fit: cover;
 }
 
