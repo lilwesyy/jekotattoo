@@ -195,6 +195,7 @@
   font-weight: bold;
   text-transform: uppercase;
   border-color: transparent;
+  transition: .3s;
 }
 
 #home-button:hover {
@@ -259,6 +260,12 @@
 
 .h370 {
   max-height: 370px;
+  object-fit: cover;
+}
+
+.map-image-google {
+  width: 100%;
+  max-height: 400px;
   object-fit: cover;
 }
 
